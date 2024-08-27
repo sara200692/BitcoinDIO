@@ -1,0 +1,53 @@
+{
+    "owner": "0xA9155F5B6FC993A82346a8ff86EFEf513fc4c096",
+    "nfts": [
+      {
+        "tokenId": "1",
+        "contractAddress": "0x1234567890abcdef1234567890abcdef12345678",
+        "name": "CryptoKitty #1",
+        "description": "A rare CryptoKitty with unique traits.",
+        "imageUrl": "https://example.com/images/cryptokitty1.png",
+        "metadata": {
+          "traits": {
+            "furColor": "blue",
+            "eyes": "green",
+            "hat": "none"
+          }
+        }
+      },
+      {
+        "tokenId": "2",
+        "contractAddress": "0xabcdef1234567890abcdef1234567890abcdef12",
+        "name": "Bored Ape #2",
+        "description": "An exclusive Bored Ape NFT.",
+        "imageUrl": "https://example.com/images/boredape2.png",
+        "metadata": {
+          "traits": {
+            "background": "purple",
+            "clothing": "suit",
+            "accessory": "sunglasses"
+          }
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "transactionId": "0xabc123",
+        "type": "purchase",
+        "date": "2024-08-20",
+        "amount": "2.5 ETH",
+        "nftTokenId": "1",
+        "from": "0x9876543210abcdef9876543210abcdef98765432",
+        "to": "0xA9155F5B6FC993A82346a8ff86EFEf513fc4c096"
+      },
+      {
+        "transactionId": "0xdef456",
+        "type": "sale",
+        "date": "2024-08-25",
+        "amount": "1.8 ETH",
+        "nftTokenId": "2",
+        "from": "0xA9155F5B6FC993A82346a8ff86EFEf513fc4c096",
+        "to": "0x1234567890abcdef1234567890abcdef12345678"
+      }
+    ]
+  }
